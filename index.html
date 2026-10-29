@@ -49,7 +49,7 @@
     <h1>WBookZoom Privacy Policy</h1>
     <p class="date">Effective 21 October 2026</p>
 
-    <p class="summary"><strong>In short:</strong> WBookZoom does not collect, transmit or share any personal data. It has no account, no advertising, no analytics and no tracking, and it does not connect to the internet. Everything you open in it stays on your device unless you share it yourself.</p>
+    <p class="summary"><strong>In short:</strong> WBookZoom does not collect, transmit or share any personal data. It has no account, no advertising, no analytics and no tracking, and it does not connect to the internet. Everything you open in it stays on your device.</p>
 
     <h2>Who we are</h2>
     <p>WBookZoom is an app for reading spreadsheets (<code>.xlsx</code>, <code>.xls</code> and CSV files) on Android, developed by Dr. Hua Bi (“we”). You can reach us at <a href="mailto:support.bdoki@gmail.com">support.bdoki@gmail.com</a> with any question about this policy.</p>
@@ -59,7 +59,7 @@
       <li><strong>Files you choose.</strong> When you import a workbook, Android’s own file picker gives the app access to that one file only. The app has no access to your other files.</li>
       <li><strong>Nothing else.</strong> WBookZoom does not access your contacts, location, camera, microphone, photos, messages, accounts or the list of apps you have installed. It asks for no permission that you have to grant.</li>
     </ul>
-    <p>The app package declares Android’s standard internet permission because the app’s code is loaded over the network during development. The published app does not open any network connection.</p>
+    <p>The published app does not declare Android’s internet permission, so it cannot open a network connection.</p>
 
     <h2>What is stored, and where</h2>
     <p>All of the following is kept only in the app’s private storage on your device, which other apps cannot read. None of it is sent to us or to anyone else, and the app opts out of Android’s cloud backup, so it is not copied to your Google account either.</p>
@@ -68,11 +68,10 @@
       <li>Changes you make to cell values, kept beside the workbook rather than in it.</li>
       <li>If you set a PIN: a salted, repeatedly hashed check value used to verify it, and a randomly generated key that is encrypted with your PIN and protects workbooks imported from password-protected files. The PIN itself is never stored.</li>
       <li>Your settings, such as dark or light mode, help language and list layout.</li>
-      <li>A temporary copy of the workbook you last exported, in the app’s private cache, in the same form you exported it (protected with your PIN if the export was). It is removed when you next export, and Android may clear it sooner.</li>
     </ul>
 
-    <h2>What you share yourself</h2>
-    <p>When you export a workbook, the app hands a copy to Android’s share sheet and you choose where it goes, for example Google Drive, email or another app. From then on, the receiving app’s or service’s own privacy terms apply. If you have set a PIN, an exported .xlsx file is password-protected with it; a CSV or .xls file cannot be, so the app asks you first and exports it unprotected only if you agree. When you copy data as CSV, it is placed on the system clipboard, where Android makes it available to the app you paste into.</p>
+    <h2>What you export yourself</h2>
+    <p>When you export a workbook, Android’s folder picker lets you choose a folder, and the app saves a copy there and nowhere else. It does not hand the copy to any other app. What happens to it afterwards is up to you, and depends on that folder: a folder that another app or service syncs, for example, is covered by that app’s or service’s own privacy terms. If you have set a PIN, an exported .xlsx file is password-protected with it; a CSV or .xls file cannot be, so the app asks you first and exports it unprotected only if you agree. When you copy data as CSV, it is placed on the system clipboard, where Android makes it available to the app you paste into.</p>
 
     <h2>Security</h2>
     <p>Imported workbooks are encrypted at rest with AES-256. Workbooks imported from a password-protected file are additionally protected by a key tied to your PIN, when you have set one. The app can lock itself with a PIN at start-up and after a minute in the background. These measures protect against casual access to a device or its storage; like any app, WBookZoom cannot guarantee protection against a determined attacker with full access to your device.</p>
@@ -97,7 +96,7 @@
     <h1>Datenschutzerklärung für WBookZoom</h1>
     <p class="date">Gültig ab 21. Oktober 2026</p>
 
-    <p class="summary"><strong>Kurz gesagt:</strong> WBookZoom erhebt, überträgt und teilt keine personenbezogenen Daten. Die App hat kein Konto, keine Werbung, keine Analyse und kein Tracking, und sie stellt keine Verbindung zum Internet her. Alles, was Sie darin öffnen, bleibt auf Ihrem Gerät, solange Sie es nicht selbst teilen.</p>
+    <p class="summary"><strong>Kurz gesagt:</strong> WBookZoom erhebt, überträgt und teilt keine personenbezogenen Daten. Die App hat kein Konto, keine Werbung, keine Analyse und kein Tracking, und sie stellt keine Verbindung zum Internet her. Alles, was Sie darin öffnen, bleibt auf Ihrem Gerät.</p>
 
     <h2>Wer wir sind</h2>
     <p>WBookZoom ist eine App zum Lesen von Tabellen (<code>.xlsx</code>, <code>.xls</code> und CSV) unter Android, entwickelt von Dr. Hua Bi („wir“). Fragen zu dieser Erklärung richten Sie bitte an <a href="mailto:support.bdoki@gmail.com">support.bdoki@gmail.com</a>.</p>
@@ -107,7 +106,7 @@
       <li><strong>Dateien, die Sie auswählen.</strong> Beim Import einer Arbeitsmappe gibt die Dateiauswahl von Android der App Zugriff auf genau diese eine Datei. Auf Ihre übrigen Dateien hat die App keinen Zugriff.</li>
       <li><strong>Sonst nichts.</strong> WBookZoom greift nicht auf Kontakte, Standort, Kamera, Mikrofon, Fotos, Nachrichten, Konten oder die Liste Ihrer installierten Apps zu. Die App fragt nach keiner Berechtigung, die Sie erteilen müssten.</li>
     </ul>
-    <p>Das App-Paket enthält die übliche Internet-Berechtigung von Android, weil der Code der App während der Entwicklung über das Netzwerk geladen wird. Die veröffentlichte App baut keine Netzwerkverbindung auf.</p>
+    <p>Die veröffentlichte App enthält die Internet-Berechtigung von Android nicht und kann daher keine Netzwerkverbindung aufbauen.</p>
 
     <h2>Was gespeichert wird, und wo</h2>
     <p>Alles Folgende liegt ausschließlich im privaten Speicher der App auf Ihrem Gerät, den andere Apps nicht lesen können. Nichts davon wird an uns oder an Dritte gesendet. Die App ist von der Cloud-Sicherung von Android ausgenommen, daher wird es auch nicht in Ihr Google-Konto kopiert.</p>
@@ -116,11 +115,10 @@
       <li>Ihre Änderungen an Zellwerten, getrennt von der Arbeitsmappe abgelegt.</li>
       <li>Falls Sie eine PIN festlegen: ein gesalzener, mehrfach gehashter Prüfwert, mit dem sie geprüft wird, sowie ein zufällig erzeugter Schlüssel, der mit Ihrer PIN verschlüsselt ist und Arbeitsmappen aus passwortgeschützten Dateien schützt. Die PIN selbst wird nie gespeichert.</li>
       <li>Ihre Einstellungen, etwa heller oder dunkler Modus, Sprache der Hilfe und Listenlayout.</li>
-      <li>Eine temporäre Kopie der zuletzt exportierten Arbeitsmappe im privaten Cache der App, in derselben Form, in der Sie sie exportiert haben (mit Ihrer PIN geschützt, wenn der Export es war). Sie wird beim nächsten Export entfernt; Android kann sie auch früher löschen.</li>
     </ul>
 
-    <h2>Was Sie selbst teilen</h2>
-    <p>Wenn Sie eine Arbeitsmappe exportieren, übergibt die App eine Kopie an das Teilen-Menü von Android, und Sie entscheiden, wohin sie geht, etwa zu Google Drive, per E-Mail oder in eine andere App. Ab dann gelten die Datenschutzbestimmungen der empfangenden App oder des Dienstes. Haben Sie eine PIN festgelegt, ist eine exportierte .xlsx-Datei mit dieser PIN passwortgeschützt; eine CSV- oder .xls-Datei lässt sich nicht schützen, daher fragt die App vorher nach und exportiert sie nur mit Ihrer Zustimmung ungeschützt. Kopieren Sie Daten als CSV, landen sie in der Zwischenablage des Systems, die Android der App bereitstellt, in die Sie einfügen.</p>
+    <h2>Was Sie selbst exportieren</h2>
+    <p>Wenn Sie eine Arbeitsmappe exportieren, wählen Sie in der Ordnerauswahl von Android einen Ordner, und die App speichert dort eine Kopie und nirgendwo sonst. An andere Apps gibt sie die Kopie nicht weiter. Was danach mit ihr geschieht, entscheiden Sie, und es hängt von diesem Ordner ab: Für einen Ordner, den eine andere App oder ein Dienst synchronisiert, gelten etwa dessen eigene Datenschutzbestimmungen. Haben Sie eine PIN festgelegt, ist eine exportierte .xlsx-Datei mit dieser PIN passwortgeschützt; eine CSV- oder .xls-Datei lässt sich nicht schützen, daher fragt die App vorher nach und exportiert sie nur mit Ihrer Zustimmung ungeschützt. Kopieren Sie Daten als CSV, landen sie in der Zwischenablage des Systems, die Android der App bereitstellt, in die Sie einfügen.</p>
 
     <h2>Sicherheit</h2>
     <p>Importierte Arbeitsmappen werden mit AES-256 verschlüsselt gespeichert. Arbeitsmappen aus passwortgeschützten Dateien sind zusätzlich durch einen Schlüssel geschützt, der an Ihre PIN gebunden ist, sofern Sie eine festgelegt haben. Die App kann sich beim Start und nach einer Minute im Hintergrund mit einer PIN sperren. Diese Maßnahmen schützen vor gelegentlichem Zugriff auf ein Gerät oder seinen Speicher; wie jede App kann WBookZoom keinen Schutz vor einem entschlossenen Angreifer mit vollem Zugriff auf Ihr Gerät garantieren.</p>
